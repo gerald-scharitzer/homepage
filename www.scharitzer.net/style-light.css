@@ -1,34 +1,28 @@
 body {
-	color: lightblue;
-	background-color: black;
+	color: black;
+	background-color: white;
 	font-family: dejavu sans, verdana, liberation sans, arial;
 	font-size: 10pt;
 	font-weight: normal
 }
 
 h1 {
-	color: steelblue;
+	color: darkblue;
 	font-size: 20pt;
 	font-weight: normal
 }
 
 h2 {
-	color: steelblue;
-	font-size: 16pt;
-	font-weight: normal
-}
-
-h3 {
-	color: steelblue;
-	font-size: 12pt;
+	color: darkblue;
+	font-size: 18pt;
 	font-weight: normal
 }
 
 a { text-decoration-line: none }
-a:link { color: lightgreen }
-a:visited { color: violet }
-a:hover { color: lightskyblue }
-a:active { color: orange }
+a:link { color: darkgreen }
+a:visited { color: purple }
+a:hover { color: blue }
+a:active { color: red }
 
 table {
 	font-family: dejavu sans, verdana, liberation sans, arial;
@@ -39,7 +33,7 @@ table {
 }
 
 th {
-	color: steelblue;
+	color: darkblue;
 	border-style: inset;
 	border-width: thin;
 	border-color: #8080ff;
