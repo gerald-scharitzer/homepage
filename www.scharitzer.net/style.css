@@ -1,0 +1,52 @@
+body {
+	color: black;
+	background-color: white;
+	font-family: dejavu sans, verdana, liberation sans, arial;
+	font-size: 10pt;
+	font-weight: normal
+}
+
+h1 {
+	color: darkblue;
+	font-size: 20pt;
+	font-weight: normal
+}
+
+h2 {
+	color: darkblue;
+	font-size: 18pt;
+	font-weight: normal
+}
+
+a { text-decoration-line: none }
+a:link { color: darkgreen }
+a:visited { color: purple }
+a:hover { color: blue }
+a:active { color: red }
+
+table {
+	font-family: dejavu sans, verdana, liberation sans, arial;
+	font-size: 10pt;
+	border-style: outset;
+	border-width: thin;
+	border-color: #8080ff
+}
+
+th {
+	color: darkblue;
+	border-style: inset;
+	border-width: thin;
+	border-color: #8080ff;
+	padding-left: 1mm;
+	padding-right: 1mm
+}
+
+td {
+	border-style: inset;
+	border-width: thin;
+	border-color: #8080ff;
+	padding-left: 1mm;
+	padding-right: 1mm
+}
+
+img { border-width: 0 }

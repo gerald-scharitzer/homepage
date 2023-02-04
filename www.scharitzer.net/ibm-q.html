@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IBM Q</title>
+		<meta charset="utf-8"/>
+		<style>
+			@import url(style.css);
+		</style>
+	</head>
+	<body>
+		<h1>IBM Q</h1>
+		<p>The IBM Q architecture provides the following physical gates (primitives).</p>
+		<table>
+			<tr><th>QASM</th><th>Name</th><th>Qubit Count</th><th>Parameter Count</th></tr>
+			<tr><td>reset</td><td>Reset</td><td>1</td><td>0</td></tr>
+			<tr><td>U</td><td>Universal</td><td>1</td><td>3</td></tr>
+			<tr><td>CX</td><td>Controlled Not</td><td>2</td><td>0</td></tr>
+			<tr><td>measure</td><td>Measure</td><td>1</td><td>0</td></tr>
+		</table>
+		
+		<h2>Reset</h2>
+		<p>Reset is a separate instruction, but can theoretically be implemented as</p>
+		<p><code>measure q b;<br/>
+		if (b == 1) x q;</code></p>
+		<p>where x is U(PI,0,PI) and PI is a half rotation (&pi;).</p>
+		
+		<h2>Universal</h2>
+		<p>The universal single-qubit instruction takes 3 parameters.
+		Here the question is the theoretical precision (value space) of these parameters and
+		the physical precision (tolerance) of their implementation in hardware.</p>
+		
+		<h1>References</h1>
+		<ul>
+			<li><a href="https://quantumexperience.ng.bluemix.net/proxy/tutorial/full-user-guide/002-The_Weird_and_Wonderful_World_of_the_Qubit/004-advanced_qubit_gates.html" target="_blank">IBM Q Full User Guide - Advanced Single-Qubit Gates</a></li>
+			<li><a href="https://quantumexperience.ng.bluemix.net/qx/editor" target="_blank">IBM Q Composer Gates Information</a></li>
+		</ul>
+	</body>
+</html>
+
