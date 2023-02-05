@@ -25,10 +25,10 @@ h3 {
 }
 
 a { text-decoration-line: none }
-a:link { color: lightgreen }
-a:visited { color: violet }
+a:link { color: palegreen }
+a:visited { color: lightgreen }
 a:hover { color: lightskyblue }
-a:active { color: orange }
+a:active { color: gold }
 
 table {
 	font-family: dejavu sans, verdana, liberation sans, arial;
